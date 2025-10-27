@@ -1,0 +1,37 @@
+# --- Global ---
+.DS_Store
+*.log
+*.env
+*.bak
+*.tmp
+*.swp
+
+# --- Node / Frontend ---
+node_modules/
+frontend/out/
+frontend/.next/
+frontend/dist/
+
+# --- Go ---
+Backend/api-gateway-go/bin/
+Backend/api-gateway-go/go.sum
+Backend/api-gateway-go/cookies.txt
+
+# --- Rust ---
+Backend/services/worker-rust/target/
+Backend/services/worker-rust/Cargo.lock
+
+# --- Python / Misc ---
+__pycache__/
+*.pyc
+venv/
+
+# --- Local data ---
+cookies.txt
+.env
+*.sqlite
+*.db
+
+
+flattener.py
+all_files.txt
